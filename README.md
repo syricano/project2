@@ -1,4 +1,4 @@
-#_Rock Paper Scissor Game_
+# Rock Paper Scissor Game
 
 ---
 
