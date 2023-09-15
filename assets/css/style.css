@@ -44,4 +44,11 @@ h2{
     justify-content: center;
     
 }
-
+/*Footer Style*/
+footer {
+    position: absolute; /*to move it to bottom*/
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 75%;
+}
