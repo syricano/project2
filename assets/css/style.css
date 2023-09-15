@@ -30,5 +30,18 @@ h2{
     flex-wrap: nowrap;
     justify-content: space-around;
 }
-
+/*Display Choices Area Style */
+.selection-area{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+/*Choices Style*/
+.choice-area{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    
+}
 
