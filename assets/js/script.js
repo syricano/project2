@@ -58,3 +58,22 @@ if (playerChoice === computerChoice) {
 
 
 }
+
+  /** Set Share button */
+  var shareV=document.getElementById("share");
+  shareV.addEventListener("click", shareMe);
+
+  function shareMe() {
+      let shareIt = {
+          text: "I'm playing a Rock, Paper, Scissor Game",
+          url: window.location.href
+      };
+  
+      if (navigator.share) {
+          navigator.share(shareIt)
+            
+      } else {
+          // Fallback for browsers that don't support the Web Share API
+          alert("Sorry, your browser does not support sharing. You can manually copy and share the URL.");
+      }
+  }
