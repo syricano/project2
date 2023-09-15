@@ -7,3 +7,28 @@ body {
 
 
 }
+
+/* Main Style*/
+main{
+    margin: 5px;
+    padding: 5px;
+}
+
+/*Header Style*/
+header{
+    font-size: 150%;
+}
+
+/*Rules style*/
+h2{
+    font-size:100% ;
+}
+
+/*Score Area Style */
+.score-area{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
