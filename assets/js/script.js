@@ -25,9 +25,16 @@ function setPlayerChoice(choice) {
     runGame();
 }
 
-/** Declare computer choice */
+/** Setting computer choice */
 function setComputerChoice() {
     let computerChoice = choices[Math.floor(Math.random() * choices.length)];
     computerSelection.innerHTML = `Computer chose: ${computerChoice}`;
     return computerChoice;
+}
+
+/** Main Run game function */
+function runGame(){
+    // Set computer choice before comparing
+ var computerChoice = setComputerChoice();
+
 }
