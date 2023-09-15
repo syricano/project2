@@ -23,6 +23,11 @@ function setPlayerChoice(choice) {
     playerChoice = choice;
     playerSelection.innerHTML = `Player chose: ${choice}`;
     runGame();
-
 }
 
+/** Declare computer choice */
+function setComputerChoice() {
+    let computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    computerSelection.innerHTML = `Computer chose: ${computerChoice}`;
+    return computerChoice;
+}
