@@ -19,11 +19,6 @@ header{
     font-size: 150%;
 }
 
-/*Rules style*/
-h2{
-    font-size:100% ;
-}
-
 /*Score Area Style */
 .score-area{
     display: flex;
@@ -43,6 +38,16 @@ h2{
     align-content: flex-end;
     justify-content: center;
     
+}
+
+/*Rules style*/
+h2{
+    ;
+    font-size:100% ;
+    text-align: center;
+}
+#rules-spaner{
+opacity: 0;
 }
 /*Footer Style*/
 footer {
