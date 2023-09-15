@@ -18,3 +18,11 @@ document.getElementById("paper").addEventListener("click", function() {
 document.getElementById("scissor").addEventListener("click", function() {
     setPlayerChoice("scissors");
 });
+/** Set player Choice function */
+function setPlayerChoice(choice) {
+    playerChoice = choice;
+    playerSelection.innerHTML = `Player chose: ${choice}`;
+    runGame();
+
+}
+
