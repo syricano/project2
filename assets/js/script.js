@@ -36,5 +36,25 @@ function setComputerChoice() {
 function runGame(){
     // Set computer choice before comparing
  var computerChoice = setComputerChoice();
+/** Cases */
+// Case 1: 
+if (playerChoice === computerChoice) {
+    result.innerHTML = "Same same";
+} else if (
+// Case 2:
+    (playerChoice === "rock" && computerChoice === "scissors") ||
+    (playerChoice === "paper" && computerChoice === "rock") ||
+    (playerChoice === "scissors" && computerChoice === "paper")
+) {
+    result.innerHTML = "You Win";
+    playerScore++; // Increment player's score
+    document.getElementById("player-score").innerHTML = playerScore; // Update player's score display
+} else {
+// Case 3    
+    result.innerHTML = "Computer Wins";
+    computerScore++; // Increment computer's score
+    document.getElementById("computer-score").innerHTML = computerScore; // Update computer's score display
+}
+
 
 }
