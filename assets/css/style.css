@@ -1,10 +1,9 @@
 /* Body Style*/
 
 body {
-    font-family: 'Roboto Mono', monospace, sans-serif;
-    display: contents;
-    text-align: center;
-
+font-family: 'Roboto Mono', monospace, sans-serif;
+display: contents;
+text-align: center;
 
 }
 
@@ -41,18 +40,30 @@ header{
 }
 
 /*Rules style*/
-.rules{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    align-items: center;
-}
+
+
 h2{   
     font-size:100% ;
     text-align: center;
 }
-#rules-spaner{
-opacity: 0;
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 320px;
+    background-color: rgba(5, 5, 5, 0.459);
+    color: #200dca;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    
+}
+  
+  /* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
 }
 /*Footer Style*/
 footer {
