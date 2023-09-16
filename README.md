@@ -5,7 +5,7 @@
 [Rock Paper Scissor Game](https://syricano.github.io/project2/) is a game website designed for the classic Rock Paper Scissor Game for online users.
 
 
---
+---
 
 ## User Stories
 
@@ -56,14 +56,41 @@
 ## Footer
 - It has the author info
 
+---
 
 ## Testing
 - I tested that website works in different browser; Chrome , firefox.
 - I used devtools and responsiveness website [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive and all work and load as suppose to.
 
-## Bugs
+### Bugs
+#### Unsolved bugs
+- None.
 
 
-- 
- 
-- bug : an incorrect settings of rules button lead to expand the html file , then it was resolved by removing the z-index and minus values
+#### Solved bugs 
+ - styling bug : an incorrect settings of rules button lead to expand the html file , then it was resolved by removing the z-index and minus values
+
+ ### Validator Testing
+
+ - #### HTML
+ - No errors were found when passing through the official w3c.
+ - ##### CSS
+   No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+- ##### Accessibility and performance
+  Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+    ![Performance score](assets/images/lighthouse.png)
+    ![HTML W3C](assets/images/html.png)
+    ![CSS W3C](assets/images/styli.png)
+
+---
+
+ ## Deployment
+ - The website was deployed to Github pages and can be accessed by the link : [Project2](https://syricano.github.io/project2/)  
+
+ ---
+
+## Credits 
+- The pictures were downloaded from with no author requirement [Icon Library ](https://icon-library.com
+)
+
+
