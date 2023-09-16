@@ -1,14 +1,12 @@
 /* Body Style*/
 
 body {
-font-family: 'Roboto Mono', monospace, sans-serif;
-display: contents;
-text-align: center;
-width: 75%;
-align-items: center;
-min-height: 100vh;
-margin :0
-
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    display: contents;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aquamarine;    
 }
 
 /* Main Style*/
@@ -16,11 +14,13 @@ main{
     position: inherit;
     margin: 5px;
     padding: 5px;
+    font-size: 100%;
 }
 
 /*Header Style*/
 header{
-    font-size: 150%;
+    font-size: 200%;
+    color: brown;
 }
 
 /*Score Area Style */
@@ -28,12 +28,14 @@ header{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    color: red;
 }
 /*Display Choices Area Style */
 .selection-area{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    color: #200dca;
 }
 /*Choices Style*/
 .choice-area{
@@ -41,6 +43,7 @@ header{
     flex-wrap: wrap;
     align-content: flex-end;
     justify-content: center;
+    
     
 }
 
@@ -78,7 +81,24 @@ footer {
     width: 100%;
     font-size: 75%;
 }
-
-@media (min-width: 820px) {
+/* For screens with a minimum width of 768px */
+@media (min-width: 768px) {
+    header {
+        font-size: 300%; /* Increase header font size */
+    }
     
+    .choice-area {
+        margin: 10px; /* Increase margin for spacing between choices */
+    }
+}
+
+/* For screens with a minimum width of 1024px */
+@media (min-width: 1024px) {
+    body {
+        font-size: 16px; /* Increase font size for larger screens */
+    }
+    
+    main {
+        font-size: 150%; /* Adjust main content font size */
+    }
 }
