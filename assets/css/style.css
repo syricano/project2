@@ -99,6 +99,10 @@ footer {
 button {
     font-size: 100%;
 }
+
+#result{
+    color: red;
+}
 /* For screens with a minimum width of 768px */
 @media (min-width: 768px) {
     header {
