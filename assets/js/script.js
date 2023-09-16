@@ -77,3 +77,8 @@ if (playerChoice === computerChoice) {
           alert("Sorry, your browser does not support sharing. You can manually copy and share the URL.");
       }
   }
+
+  var rules = document.getElementById("rules-spaner");
+  rules.addEventListener("click", function() {
+      rules.style.opacity = 1;
+  });
