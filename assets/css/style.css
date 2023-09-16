@@ -31,6 +31,11 @@ header{
     display: contents;
 }
 
+/* make a choice */
+h4{
+    color: blue;
+}
+
 /*Score Area Style */
 .score-area{
     display: flex;
@@ -43,7 +48,7 @@ header{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    color: #200dca;
+    color: blue;
 }
 /*Choices Style*/
 .choice-area{
@@ -65,13 +70,12 @@ h2{
   /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
-    width: 320px;
+    width: auto;
     background-color: rgba(5, 5, 5, 0.459);
-    color: #200dca;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
+    color: rgba(0, 0, 255, 0.726);
+    border-radius: 4px;
+    padding: 2px 0;
+    position:absolute;
     
 }
   
@@ -83,11 +87,12 @@ h2{
 }
 /*Footer Style*/
 footer {
-    position: absolute; /*to move it to bottom*/
+    position: fixed; /*to move it to bottom*/
     bottom: 0;
     text-align: center;
     width: 100%;
-    font-size: 75%;
+    font-size: 50%;
+    color: black;
 }
 /* For screens with a minimum width of 768px */
 @media (min-width: 768px) {
@@ -115,10 +120,10 @@ footer {
 
 @media (min-width: 280px ) {
     header {
-        font-size: 175%; /* Increase header font size */
+        font-size: 150%; /* Increase header font size */
     }
     main {
-        font-size: 150%; /* Adjust main content font size */
+        font-size: 125%; /* Adjust main content font size */
     }
     
 .game-area {
