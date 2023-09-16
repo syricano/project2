@@ -18,3 +18,4 @@
 - As a Returned Visitor, I want to see other players' scores for competition.
 - As a Returned Visitor, I want to share the site with friends to compete with them.
  
+- bug : an incorrect settings of rules button lead to expand the html file , then it was resolved by removing the z-index and minus values
