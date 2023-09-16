@@ -94,21 +94,26 @@ footer {
     font-size: 50%;
     color: black;
 }
+
+/*style buttons*/
+button {
+    font-size: 100%;
+}
 /* For screens with a minimum width of 768px */
 @media (min-width: 768px) {
     header {
-        font-size: 200%; /* Increase header font size */
+        font-size: 200%; /* Adjust header font size */
     }
     
     .choice-area {
-        margin: 10px; /* Increase margin for spacing between choices */
+        margin: 10px; /* Adjust margin for spacing between choices */
     }
 }
 
 /* For screens with a minimum width of 1024px */
 @media (min-width: 1024px ) {
     body {
-        font-size: 150%; /* Increase font size for larger screens */
+        font-size: 150%; /* Adjust font size for larger screens */
 
     }
     
@@ -117,20 +122,25 @@ footer {
     }
     
 }
+/* For screens with a minimum width of 280px */
 
 @media (min-width: 280px ) {
     header {
-        font-size: 150%; /* Increase header font size */
+        font-size: 150%; /* Adjust header font size */
     }
     main {
         font-size: 125%; /* Adjust main content font size */
     }
-    
+    /* to align content to center*/
 .game-area {
    
     display: inline;
     .choice-area {
         margin: left 30%; ;
     }
+}
+/*style buttons*/
+button {
+    font-size: 75%;
 }
 }
