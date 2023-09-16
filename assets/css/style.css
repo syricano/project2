@@ -139,9 +139,7 @@ button {
 .game-area {
    
     display: inline;
-    .choice-area {
-        margin: left 30%; ;
-    }
+   
 }
 /*style buttons*/
 button {
