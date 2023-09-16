@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h2>
@@ -13,75 +15,76 @@
         </h2>
     </header>
     <main>
-       
-        <!--Score Area-->
-        <div class="score-area">
-            
-            <div class="score" >
-                <h5>Player Score <span id="player-score">0</span></h5>
-    
+        <div class="game-area">
+            <!--Score Area-->
+            <div class="score-area">
+
+                <div class="score">
+                    <h5>Player Score <span id="player-score">0</span></h5>
+
+                </div>
+                <div>
+                    <h5>VS</h5>
+                </div>
+                <div class="score">
+                    <h5>Computer Score <span id="computer-score">0</span></h5>
+
+                </div>
+
             </div>
+
+
+            <!--Choice Area-->
             <div>
-                <h5>VS</h5>
-            </div>
-            <div class="score" >
-                <h5>Computer Score <span id="computer-score">0</span></h5>
-    
-            </div>
-    
-        </div>
-
-
-        <!--Choice Area-->
-        <div>
-            <h5>Make a choice </h5>
-        </div>
-
-        <div class="choice-area">
-           
-            <div>
-                <img src="assets/images/rock.png"  id="rock" alt="rock" width="125px">
+                <h5>Make a choice </h5>
             </div>
 
-            <div>
-                <img src="assets/images/paper.png" id="paper" alt="paper" width="125px">
-            </div>
-                         
-            <div>
-                <img src="assets/images/scissor.png" id="scissor" alt="scissor" width="125px">
-            </div>
-            
+            <div class="choice-area">
 
-        </div>
+                <div>
+                    <img src="assets/images/rock.png" id="rock" alt="rock" width="125px">
+                </div>
 
-        <!--Selection or choices Display Area-->
-        <div class="selection-area">
-            <div>
-                <h5 id="p-display">You Chose :
+                <div>
+                    <img src="assets/images/paper.png" id="paper" alt="paper" width="125px">
+                </div>
+
+                <div>
+                    <img src="assets/images/scissor.png" id="scissor" alt="scissor" width="125px">
+                </div>
+
+
+            </div>
+
+            <!--Selection or choices Display Area-->
+            <div class="selection-area">
+                <div>
+                    <h5 id="p-display">You Chose :
+                    </h5>
+
+                </div>
+                <div>
+                    <h5 id="c-display"> Computer Chose:
+                    </h5>
+
+                </div>
+            </div>
+
+            <!--Declare Winner Area-->
+            <div class="result">
+                <h5>
+                    <span id="result">
+                        <!--Player or Computer wins message to be created by Java-->
+                    </span>
                 </h5>
 
             </div>
-            <div>
-                <h5 id="c-display"> Computer Chose:
-                </h5>
-
-            </div>
         </div>
+        <!--Game rules-->
 
-        <!--Declare Winner Area-->
-        <div class="result">
-            <h5>
-                <span id="result">
-                <!--Player or Computer wins message to be created by Java-->
-                </span>
-            </h5>
-
-        </div>
-         <!--Game rules-->
-         
-         <div class="popup">
+        <div class="popup">
             <button class="rules-button" onclick="rulesOnOff()"> Game Rules</button>
-            
+
             <span class="popuptext" id="rules-spaner"> Each hand signal wins against 2 of the other signals.<br>
                 Scissors cuts paper, paper covers rock, rock crushes lizard,<br>
                 lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, <br>
@@ -91,23 +94,23 @@
         </div>
 
 
-        <!--Play Again-->       
+        <!--Play Again-->
         <div class="reset" id="reset" onclick="location.reload()">
             <button>Play Again</button>
         </div>
 
         <!--Share Button-->
-        <div class="share" >
+        <div class="share">
             <button id="share">Share Score with Friends</button>
 
         </div>
 
-   
+
 
 
 
     </main>
-    
+
     <script src="assets/js/script.js"></script>
     <!--
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -115,4 +118,5 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 -->
 </body>
+
 </html>

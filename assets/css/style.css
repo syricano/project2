@@ -4,7 +4,6 @@ body {
     font-family: 'Roboto Mono', monospace, sans-serif;
     display: contents;
     text-align: center;
-    align-items: center;
     min-height: 100vh;
     background-color: aquamarine;    
 }
@@ -14,13 +13,22 @@ main{
     position: inherit;
     margin: 5px;
     padding: 5px;
-    font-size: 100%;
+    font-size: 150%;
+}
+.game-area {
+    width: 75%;
+    margin-top: 25%;
+    margin-left: 25%;
 }
 
 /*Header Style*/
 header{
+    margin-left: 25%;
     font-size: 200%;
     color: brown;
+    position: fixed;
+    top: 0;
+    display: contents;
 }
 
 /*Score Area Style */
@@ -84,7 +92,7 @@ footer {
 /* For screens with a minimum width of 768px */
 @media (min-width: 768px) {
     header {
-        font-size: 300%; /* Increase header font size */
+        font-size: 200%; /* Increase header font size */
     }
     
     .choice-area {
@@ -93,12 +101,31 @@ footer {
 }
 
 /* For screens with a minimum width of 1024px */
-@media (min-width: 1024px) {
+@media (min-width: 1024px ) {
     body {
-        font-size: 16px; /* Increase font size for larger screens */
+        font-size: 150%; /* Increase font size for larger screens */
+
     }
     
     main {
+        font-size: 200%; /* Adjust main content font size */
+    }
+    
+}
+
+@media (min-width: 280px ) {
+    header {
+        font-size: 175%; /* Increase header font size */
+    }
+    main {
         font-size: 150%; /* Adjust main content font size */
     }
+    
+.game-area {
+   
+    display: inline;
+    .choice-area {
+        margin: left 30%; ;
+    }
+}
 }
