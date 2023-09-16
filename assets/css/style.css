@@ -4,11 +4,16 @@ body {
 font-family: 'Roboto Mono', monospace, sans-serif;
 display: contents;
 text-align: center;
+width: 75%;
+align-items: center;
+min-height: 100vh;
+margin :0
 
 }
 
 /* Main Style*/
 main{
+    position: inherit;
     margin: 5px;
     padding: 5px;
 }
@@ -72,4 +77,8 @@ footer {
     text-align: center;
     width: 100%;
     font-size: 75%;
+}
+
+@media (min-width: 820px) {
+    
 }
