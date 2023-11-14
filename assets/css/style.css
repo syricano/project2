@@ -1,19 +1,20 @@
 /* Body Style*/
 
 body {
+    width: 100%;
     font-family: 'Roboto Mono', monospace, sans-serif;
-    display: contents;
+    font-size: 1rem;
     text-align: center;
     min-height: 100vh;
-    background-color: aquamarine;    
+    background-color: aquamarine;  
 }
 
 /* Main Style*/
 main{
-    position: inherit;
-    margin: 5px;
-    padding: 5px;
-    font-size: 150%;
+    display: grid;
+    min-height: 100vh;
+    min-width: 90vw;
+
 }
 .game-area {
     width: 75%;
