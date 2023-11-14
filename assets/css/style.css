@@ -105,6 +105,9 @@ footer {
 /*style buttons*/
 button {
     font-size: 0.7rem;
+    background-color: beige;
+    width: 10rem;
+    height: 2rem;
 }
 
 #result{
