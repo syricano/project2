@@ -2,9 +2,9 @@
 
 body {
     display: flex;
+    font-size: 1rem;
     width: 100%;
     font-family: 'Roboto Mono', monospace, sans-serif;
-    font-size: 1rem;
     text-align: center;
     min-height: 100vh;
     background-color: aquamarine;
@@ -27,7 +27,6 @@ main{
 /*Header Style*/
 header{
     margin-left: 25%;
-    font-size: 200%;
     color: brown;
     position: fixed;
     top: 0;
@@ -52,6 +51,7 @@ h4{
 .selection-area{
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: column;
     justify-content: space-around;
     padding: 25px 0;
     color: blue;
@@ -60,9 +60,8 @@ h4{
 .choice-area{
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-end;
     padding: 25px 0;
-    justify-content: center;
+    justify-content: space-evenly;
     
     
 }
@@ -99,13 +98,13 @@ footer {
     margin-top: auto;
     text-align: center;
     width: 100%;
-    font-size: 75%;
+    font-size: 0.5rem;
     color: black;
 }
 
 /*style buttons*/
 button {
-    font-size: 100%;
+    font-size: 0.7rem;
 }
 
 #result{
@@ -125,10 +124,13 @@ button {
 
 @media (min-width: 276px ) {
     header{
-        font-size: medium;
+        font-size: 1rem; /* Adjust header font size */
     }
     body {
-        font-size: small; /* Adjust header font size */
+        font-size: 0.8rem; /* Adjust body font size */
+    }
+    .choice-area{
+        display: flex;
     }
    
     /* to align content to center*/
@@ -137,22 +139,46 @@ button {
     display: inline;
    
 }
-/*style buttons*/
-button {
-    font-size: 75%;
-}
-}
 
-/* For screens with a minimum width of 768px */
-@media (min-width: 600px) {
+}
+/* For screens with a minimum width of 360px */
+@media (min-width: 360px) {
     header {
-        font-size: 140%; /* Adjust header font size */
+        font-size: 1.2rem; /* Adjust header font size */
     }
     body {
-        font-size: 125%;
+        font-size: 0.8rem;
     }
+}
+/* For screens with a minimum width of 600px */
+@media (min-width: 600px) {
+    header {
+        font-size: 1.3rem; /* Adjust header font size */
+    }
+    body {
+        font-size: 1.1rem;
+    }
+}
+/* For screens with a minimum width of 768px */
+@media (min-width: 768px){
+    header {
+        font-size: 1.5rem; /* Adjust header font size */
+    }
+    body {
+        font-size: 1.3rem;
+    }
+    .selection-area{
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }    
+    
     
     .choice-area {
         margin: 10px; /* Adjust margin for spacing between choices */
+        padding: 25px;
     }
-}
+    .selection-area {
+        display: flex;
+        
+    }
+}    
