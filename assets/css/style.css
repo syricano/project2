@@ -17,9 +17,9 @@ main{
 
 }
 .game-area {
-    width: 75%;
-    margin-top: 25%;
-    margin-left: 25%;
+    position: sticky;
+    top: 25%;
+    text-align: center;
 }
 
 /*Header Style*/
@@ -43,12 +43,15 @@ h4{
     flex-wrap: nowrap;
     justify-content: space-around;
     color: red;
+    padding: 25px 0;
+
 }
 /*Display Choices Area Style */
 .selection-area{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    padding: 25px 0;
     color: blue;
 }
 /*Choices Style*/
@@ -56,6 +59,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
+    padding: 25px 0;
     justify-content: center;
     
     
