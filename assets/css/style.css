@@ -1,12 +1,14 @@
 /* Body Style*/
 
 body {
+    display: flex;
     width: 100%;
     font-family: 'Roboto Mono', monospace, sans-serif;
     font-size: 1rem;
     text-align: center;
     min-height: 100vh;
-    background-color: aquamarine;  
+    background-color: aquamarine;
+    flex-direction: column;
 }
 
 /* Main Style*/
@@ -92,8 +94,9 @@ h2{
 }
 /*Footer Style*/
 footer {
-    position: fixed; /*to move it to bottom*/
+    position: relative; /*to move it to bottom*/
     bottom: 0;
+    margin-top: auto;
     text-align: center;
     width: 100%;
     font-size: 50%;
@@ -108,10 +111,19 @@ button {
 #result{
     color: red;
 }
+
+#rules-again-share{
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
 /* For screens with a minimum width of 768px */
 @media (min-width: 768px) {
     header {
-        font-size: 200%; /* Adjust header font size */
+        font-size: 1rem; /* Adjust header font size */
     }
     
     .choice-area {
