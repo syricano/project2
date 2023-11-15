@@ -78,10 +78,13 @@ h2{
     visibility: hidden;
     width: auto;
     background-color: rgba(5, 5, 5, 0.459);
-    color: rgba(0, 0, 255, 0.726);
+    color: rgb(0, 0, 255);
     border-radius: 4px;
     padding: 2px 0;
-    position:absolute;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6rem;
     
 }
   
@@ -162,6 +165,7 @@ button {
         font-size: 1.1rem;
     }
 }
+
 /* For screens with a minimum width of 768px */
 @media (min-width: 768px){
     header {
@@ -184,4 +188,5 @@ button {
         display: flex;
         
     }
-}    
+}
+  

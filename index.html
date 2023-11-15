@@ -10,10 +10,22 @@
 
 <body>
     <header>
-        <h1>Rock Paper Scissor Game</h1>
+        <h2>Rock Paper Scissor Game</h2>
     </header>
     <main>
         <div class="game-area">
+            <!--Game rules-->
+
+            <div class="popup">
+                <button class="rules-button" aria-label=" Game Rules" onclick="rulesOnOff()"> Game Rules</button>
+
+                <span class="popuptext" id="rules-spaner"> Each hand signal wins against 2 of the other signals.<br>
+                    Scissors cuts paper, paper covers rock, rock crushes lizard,<br>
+                    lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, <br>
+                    lizard eats paper, paper disproves Spock, Spock vaporizes rock, and rock crushes scissors.<br>
+                    Whoever throws the winning signal wins!
+                </span>
+            </div>
             <!--Score Area-->
             <div class="score-area">
 
@@ -22,7 +34,7 @@
 
                 </div>
                 <div>
-                    <h3>VS</h3>
+                    <h4>X</h4>
                 </div>
                 <div class="score">
                     <h2>Computer Score <span id="computer-score">0</span></h2>
@@ -74,30 +86,18 @@
 
             </div>
             <div id="rules-again-share">
-                <!--Game rules-->
+            
+                <!--Play Again-->
+                <div class="reset" id="reset" aria-label=" Play Again" onclick="location.reload()">
+                    <button>Play Again</button>
+                </div>
 
-        <div class="popup">
-            <button class="rules-button" aria-label=" Game Rules" onclick="rulesOnOff()"> Game Rules</button>
+                <!--Share Button-->
+                <div class="share" aria-label=" Share with Friends">
+                    <button id="share">Share Score with Friends</button>
 
-            <span class="popuptext" id="rules-spaner"> Each hand signal wins against 2 of the other signals.<br>
-                Scissors cuts paper, paper covers rock, rock crushes lizard,<br>
-                lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, <br>
-                lizard eats paper, paper disproves Spock, Spock vaporizes rock, and rock crushes scissors.<br>
-                Whoever throws the winning signal wins!
-            </span>
-        </div>
-
-
-        <!--Play Again-->
-        <div class="reset" id="reset" aria-label=" Play Again" onclick="location.reload()">
-            <button>Play Again</button>
-        </div>
-
-        <!--Share Button-->
-        <div class="share" aria-label=" Share with Friends">
-            <button id="share">Share Score with Friends</button>
-
-        </div>
+                </div>
+                
             </div>
         </div>
         
