@@ -6,6 +6,7 @@ var playerSelection = document.getElementById("p-display");
 var computerSelection = document.getElementById("c-display");
 var playerScore = 0; // Initialize player score
 var computerScore = 0; // Initialize computer score
+var playerChoice;
 
 // Add event listeners to the set player choices:
 
@@ -27,7 +28,7 @@ function setPlayerChoice(choice) {
 
 /** Setting computer choice */
 function setComputerChoice() {
-    let computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    var computerChoice = choices[Math.floor(Math.random() * choices.length)];
     computerSelection.innerHTML = `Computer chose: ${computerChoice}`;
     return computerChoice;
 }
@@ -64,22 +65,22 @@ if (playerChoice === computerChoice) {
   shareV.addEventListener("click", shareMe);
 
   function shareMe() {
-      let shareIt = {
+      var shareIt = {
           text: "I'm playing a Rock, Paper, Scissor Game",
           url: window.location.href
       };
   
       if (navigator.share) {
-          navigator.share(shareIt)
+          navigator.share(shareIt);
             
       } else {
           // Fallback for browsers that don't support the Web Share API
           alert("Sorry, your browser does not support sharing. You can manually copy and share the URL.");
       }
   }
-  
+// function to show/disappear rules span  
 function rulesOnOff() {
-    let popup = document.getElementById("rules-spaner");
+    var popup = document.getElementById("rules-spaner");
     popup.classList.toggle("show");
 }
 
