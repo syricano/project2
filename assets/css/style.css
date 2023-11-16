@@ -15,12 +15,10 @@ body {
 main{
     display: grid;
     min-height: 100vh;
-    min-width: 90vw;
 
 }
 .game-area {
     position: sticky;
-    top: 25%;
     text-align: center;
 }
 
@@ -44,7 +42,6 @@ h4{
     flex-wrap: nowrap;
     justify-content: space-around;
     color: red;
-    padding: 25px 0;
 
 }
 /*Display Choices Area Style */
@@ -53,14 +50,12 @@ h4{
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-around;
-    padding: 25px 0;
     color: blue;
 }
 /*Choices Style*/
 .choice-area{
     display: flex;
     flex-wrap: wrap;
-    padding: 25px 0;
     justify-content: space-evenly;
     
     
@@ -118,7 +113,6 @@ button {
 }
 
 #rules-again-share{
-    padding: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -182,7 +176,6 @@ button {
     
     .choice-area {
         margin: 10px; /* Adjust margin for spacing between choices */
-        padding: 25px;
     }
     .selection-area {
         display: flex;
