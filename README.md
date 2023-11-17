@@ -1,4 +1,5 @@
 # Rock Paper Scissor Game
+![Rock Paper Scissor Game](assets/images/main-page.jpg)
 
 ---
 
