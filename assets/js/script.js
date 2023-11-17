@@ -63,7 +63,7 @@ function runGame() {
 }
 
 /** Set Share button */
-var shareV = document.getElementById("share");
+var shareV = document.getElementById("shareBtn");
 shareV.addEventListener("click", shareMe);
 
 function shareMe() {
