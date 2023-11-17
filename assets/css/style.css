@@ -134,6 +134,19 @@ button {
     .choice-area{
         display: flex;
     }
+
+}
+@media (min-height :120px) and (max-height :480px){ 
+    .popup {
+        height: 50px;
+    }
+    span#rules-spaner {
+        background-color: blue;
+        color: white;
+    }
+
+    
+}
    
     /* to align content to center*/
 .game-area {
