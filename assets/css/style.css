@@ -129,7 +129,7 @@ button {
         font-size: 1rem; /* Adjust header font size */
     }
     body {
-        font-size: 0.8rem; /* Adjust body font size */
+        font-size: 0.6rem; /* Adjust body font size */
     }
     .choice-area{
         display: flex;
@@ -149,7 +149,7 @@ button {
         font-size: 1.2rem; /* Adjust header font size */
     }
     body {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 }
 /* For screens with a minimum width of 600px */
