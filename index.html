@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Classic Rock Paper Sissor Game, Play against the computer ">
+    <meta name="description" content="Classic Rock Paper Scissor Game, Play against the computer ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock Paper Scissor Game</title>
@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h2>Rock Paper Scissor Game</h2>
+        <h2 aria-label="Rock Paper Scissor Game">Rock Paper Scissor Game</h2>
     </header>
     <main>
         <div class="game-area">
@@ -52,15 +52,15 @@
 
             <div class="choice-area">
 
-                <div>
+                <div aria-label="Select Rock">
                     <img src="assets/images/rock.png" aria-label="rock" id="rock" alt="rock choice" width="100">
                 </div>
 
-                <div>
+                <div aria-label="Select Paper">
                     <img src="assets/images/paper.png" id="paper" aria-label="paper" alt="paper  choice" width="100">
                 </div>
 
-                <div>
+                <div aria-label="Select Scissor">
                     <img src="assets/images/scissor.png" id="scissor" aria-label="scissor" alt="scissor choice"
                         width="100">
                 </div>
@@ -80,7 +80,7 @@
 
             <!--Declare Winner Area-->
             <div class="result">
-                <span id="result" aria-label="the winner">
+                <span id="result" aria-label="the winner is">
                     <!--Player or Computer wins message to be created by Java-->
                 </span>
 
