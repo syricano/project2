@@ -113,6 +113,8 @@ button {
 }
 
 #rules-again-share{
+    padding: 25px;
+    margin: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
