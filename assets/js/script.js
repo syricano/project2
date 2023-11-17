@@ -60,7 +60,6 @@ function runGame() {
 
     // Update result with aria-live region
     result.setAttribute("aria-live", "assertive");
-    result.setAttribute("aria-label", roundResult);
 }
 
 /** Set Share button */

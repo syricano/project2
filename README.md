@@ -63,14 +63,14 @@
 - I used devtools and responsiveness website [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive and all work and load as suppose to.
 
 ### Bugs
-###
-- The games rules button was not correctly or nicely aligned with the other share and play again buttons due to the span that is connected to it. so I solved it by moving its divs and position to the top of the page so the user also reads the rules before playing.
+
 #### Unsolved bugs
 - None.
 
 
 #### Solved bugs 
- - styling bug : an incorrect settings of rules button lead to expand the html file , then it was resolved by removing the z-index and minus values
+ - styling bug : an incorrect settings of rules button lead to expand the html file , then it was resolved by removing the z-index and minus values.
+ - The games rules button was not correctly or nicely aligned with the other share and play again buttons due to the span that is connected to it. so I solved it by moving its divs and position to the top of the page so the user also reads the rules before playing.
 
  ### Validator Testing
 
