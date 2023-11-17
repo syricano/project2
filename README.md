@@ -76,6 +76,7 @@
 
  - #### HTML
  - No errors were found when passing through the official w3c.
+ ![W3C HTML Validator](assets/images/w3c-html.jpg)
  - ##### CSS
    No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
 - ##### Accessibility and performance
