@@ -7,6 +7,7 @@ var computerSelection = document.getElementById("c-display");
 var playerScore = 0; // Initialize player score
 var computerScore = 0; // Initialize computer score
 var playerChoice;
+const rulesBtn = document.querySelector(".rules-button");
 
 // Add event listeners to the set player choices:
 
@@ -84,3 +85,4 @@ function rulesOnOff() {
     popup.classList.toggle("show");
 }
 
+rulesBtn.addEventListener("click", rulesOnOff);
