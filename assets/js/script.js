@@ -8,7 +8,7 @@ var playerScore = 0; // Initialize player score
 var computerScore = 0; // Initialize computer score
 var playerChoice;
 const rulesBtn = document.querySelector(".rules-button");
-
+const resetBtn = document.querySelector("#reset");
 // Add event listeners to the set player choices:
 
 document.getElementById("rock").addEventListener("click", function () {
@@ -88,3 +88,9 @@ function rulesOnOff() {
 }
 
 rulesBtn.addEventListener("click", rulesOnOff);
+resetBtn.addEventListener("click", reload);
+
+// Reload function
+function reload() {
+    location.reload();
+}
