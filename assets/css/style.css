@@ -6,7 +6,8 @@ body {
     font-family: 'Roboto Mono', monospace, sans-serif;
     text-align: center;
     min-height: 100vh;
-    background-color: aquamarine;
+    background-color: whitesmoke;
+    color: black;
     flex-direction: column;
 }
 
@@ -104,7 +105,7 @@ footer {
 /*style buttons*/
 button {
     font-size: 0.7rem;
-    background-color: beige;
+    background-color: rgb(145, 145, 175);
     width: 10rem;
     height: 2rem;
 }
