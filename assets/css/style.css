@@ -1,7 +1,7 @@
 /* Body Style*/
 
 body {
-    font-size: small;
+    font-size: 1em;
     display: flex;
     font-family: 'Roboto Mono', monospace, sans-serif;
     text-align: center;
