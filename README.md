@@ -22,8 +22,9 @@
 
 - HTML
 - CSS
--Javascript
+- Javascript
 - Google fonts
+- Fav icons
 
 ## Features
 
@@ -90,7 +91,11 @@
 ---
 
  ## Deployment
- - The website was deployed to Github pages and can be accessed by the link : [Project2](https://syricano.github.io/project2/)  
+ - The website was deployed to Github pages and can be accessed by the link : [Project2](https://syricano.github.io/project2/)
+ Deployment steps were done as the following:
+ 1. On Github, selecting the project repository then going to settings.
+ 2. clicking on pages, then selecting deploy from a branch, and selecting Main page.
+ 3. Clicking Save   
 
  ---
 
