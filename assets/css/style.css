@@ -36,7 +36,6 @@ h4 {
     width: auto;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
     align-items: baseline;
     justify-content: space-evenly;
     color: red;
@@ -113,6 +112,7 @@ button {
 .result{
     margin: 10px;
     color: red;
+    font-size: 3em;
 }
 
 #rules-again-share {
