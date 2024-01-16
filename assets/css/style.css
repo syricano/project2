@@ -130,8 +130,11 @@ button {
 
     body {
         /* Adjust body font size */
-        font-size: 0.5rem;
+        font-size: 0.3rem;
 
+    }
+    main{
+        font-size: 0.5rem;
     }
 
     .choice-area {
@@ -194,6 +197,9 @@ button {
         font-size: 0.9rem;
 
     }
+    main {
+        font-size: 1rem;
+    }
 
     .selection-area {
         flex-wrap: nowrap;
@@ -206,8 +212,15 @@ button {
 
     }
 }
+/* For screens with a minimum width of 1024px */
 @media (min-width: 1024px) {
     body {
         font-size: 1.5rem;
+    }
+}
+/* For screens with a minimum height  of 600px */
+@media (min-height: 600px) {
+    body {
+        font-size: 1rem;
     }
 }
