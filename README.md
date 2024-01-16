@@ -103,11 +103,7 @@
  - ##### CSS
    No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
   ![W3C CSS Validator](assets/images/w3c-css.jpg)
-- ##### Accessibility and performance
-  Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
-    ![Performance score](assets/images/lighthouse.png)
-    ![HTML W3C](assets/images/html.png)
-    ![CSS W3C](assets/images/styli.png)
+
 
 ---
 
