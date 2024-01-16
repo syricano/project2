@@ -11,11 +11,17 @@
 ## User Stories
 
 ### First Time Visitors Goals:
-- As a First-Time visitor, I want to understand the main purpose of the site easily, and learn more about organization.
+- As a First-Time visitor, I want to understand the main purpose of the site easily, and learn more about the features.
 - As a First-Time Visitor, I want to navigate easily throughout the site.
-- As a First-Time Visitor, I want to make sure the site is safe to store my info throughout the content features.
+- As a new player, I want to understand the rules of the game, so I can play confidently.
+- As a player, I want to easily see my current score, so I can track my progress.
+- As a player, I want to make my game choice easily, so I can quickly participate.
+- As a player, I want to see what choices I and the computer made, so I can understand the outcome.
+- As a player, I want to know the result of each round, so I can understand who won.
+- As a player, I want to easily reset the game and play again, so I can continue enjoying the game.
+
 ### Returning Visitor Goals:
-- As a Returned Visitor, I want to share the site with friends to compete with them.
+- As a Returned Visitor, I want to share my score with friends, so I can challenge them.
 
 
 ## Technologies used
@@ -31,6 +37,10 @@
 
 ### Title
 -Positioned at the top of the page.
+### Game Rules
+- Positioned below the title .
+- a Button that can be clicked to show the user games rules.
+- It can be popped up and hide the content.
 
 ### Score Area
 - Positioned below the title of the page.
@@ -46,9 +56,7 @@
 
 - POsitioned below choices area and prints the winner of the game.
 
-### Game Rules
-- a Button that can be clicked to show the user games rules.
-- It can be popped up and hide the content.
+
 ### Play Again
 - Play Again button to keep playing.
 
@@ -91,7 +99,7 @@
 ---
 
  ## Deployment
- - The website was deployed to Github pages and can be accessed by the link : [Project2](https://syricano.github.io/project2/)
+ - The website was deployed to Github pages and can be accessed from github through  the link : [Repository Project2](https://github.com/syricano/project2), the live website can be accessed here :[Project 2](https://syricano.github.io/project2/)
  Deployment steps were done as the following:
  1. On Github, selecting the project repository then going to settings.
  2. clicking on pages, then selecting deploy from a branch, and selecting Main page.
