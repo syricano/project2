@@ -121,7 +121,9 @@ button {
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-evenly;
+
 }
+
 
 /* For screens with a minimum width of 280px */
 
