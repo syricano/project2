@@ -112,7 +112,7 @@
  Deployment steps were done as the following:
  1. On Github, selecting the project repository then going to settings.
  2. clicking on pages, then selecting deploy from a branch, and selecting Main page.
- 3. Clicking Save   
+ 3. Clicking Save ![Deployment screenshot](assets/images/deployment.jpg)  
 
  ---
 
