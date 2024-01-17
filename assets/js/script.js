@@ -20,6 +20,7 @@ document.getElementById("paper").addEventListener("click", function () {
 document.getElementById("scissor").addEventListener("click", function () {
     setPlayerChoice("scissors");
 });
+
 /** Set player Choice function */
 function setPlayerChoice(choice) {
     playerChoice = choice;
@@ -27,12 +28,14 @@ function setPlayerChoice(choice) {
     runGame();
 }
 
+
 /** Setting computer choice */
 function setComputerChoice() {
     var computerChoice = choices[Math.floor(Math.random() * choices.length)];
     computerSelection.innerHTML = `Computer chose: ${computerChoice}`;
     return computerChoice;
 }
+
 
 /** Main Run game function */
 function runGame() {
@@ -57,37 +60,38 @@ function runGame() {
         computerScore++; // Increment computer's score
         document.getElementById("computer-score").innerHTML = computerScore; // Update computer's score display
     }
-
     // Update result with aria-live region
     result.setAttribute("aria-live", "assertive");
 }
 
+
 /** Set Share button */
 var shareV = document.getElementById("shareBtn");
 shareV.addEventListener("click", shareMe);
+
 
 function shareMe() {
     var shareIt = {
         text: "I'm playing a Rock, Paper, Scissor Game",
         url: window.location.href
     };
-
     if (navigator.share) {
         navigator.share(shareIt);
-
     } else {
         // Fallback for browsers that don't support the Web Share API
         alert("Sorry, your browser does not support sharing. You can manually copy and share the URL.");
     }
 }
+
+
 // function to show/disappear rules span  
 function rulesOnOff() {
     var popup = document.getElementById("rules-spaner");
     popup.classList.toggle("show");
 }
-
 rulesBtn.addEventListener("click", rulesOnOff);
 resetBtn.addEventListener("click", reload);
+
 
 // Reload function
 function reload() {
