@@ -71,15 +71,15 @@
 ## Testing
 - I tested that website works in different browser; Chrome , firefox.
 - I used devtools and responsiveness website [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive and all work and load as suppose to.
-![Responsive](assets/images/responsive%201024%20h600.jpg)
-![Responsive](assets/images/responsive%201366h%201024.jpg)
-![Responsive](assets/images/responsive%201440%20h900.jpg)
-![Responsive](assets/images/responsive%201900%20h%201200.jpg)
-![Responsive](assets/images/responsive%20360%20h%20640.jpg)
-![Responsive](assets/images/responsive%20411%20h731.jpg)
-![Responsive](assets/images/responsive%20600%20h%20960.jpg)
-![Responsive](assets/images/responsive%20768%20h%201024.jpg)
-![Responsive](assets/images/responsive%20768%20h1024.jpg)
+![Responsive](assets/images/responsive1024h600.jpg)
+![Responsive](assets/images/responsive1366h1024.jpg)
+![Responsive](assets/images/responsive1440h900.jpg)
+![Responsive](assets/images/responsive1900h1200.jpg)
+![Responsive](assets/images/responsive360h640.jpg)
+![Responsive](assets/images/responsive411h731.jpg)
+![Responsive](assets/images/responsive600h960.jpg)
+![Responsive](assets/images/responsive768h1024.jpg)
+
 
 
 - I confirmed that the Website's performance and accessibility are on a satisfying level, using Lighthouse in Chrome Dev Tools:
