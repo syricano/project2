@@ -103,7 +103,9 @@
  - ##### CSS
    No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
   ![W3C CSS Validator](assets/images/w3c-css.jpg)
-
+- ##### JShint
+No errors found when validating the script.js file in JShint validator as seen in the screenshot
+![JShint validator](assets/images/jshint.jpg)
 
 ---
 
