@@ -28,14 +28,12 @@ function setPlayerChoice(choice) {
     runGame();
 }
 
-
 /** Setting computer choice */
 function setComputerChoice() {
     var computerChoice = choices[Math.floor(Math.random() * choices.length)];
     computerSelection.innerHTML = `Computer chose: ${computerChoice}`;
     return computerChoice;
 }
-
 
 /** Main Run game function */
 function runGame() {
@@ -64,11 +62,9 @@ function runGame() {
     result.setAttribute("aria-live", "assertive");
 }
 
-
 /** Set Share button */
 var shareV = document.getElementById("shareBtn");
 shareV.addEventListener("click", shareMe);
-
 
 function shareMe() {
     var shareIt = {
